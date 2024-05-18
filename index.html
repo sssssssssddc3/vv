@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="C:\Users\XPRISTO\Desktop\timer\timer.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Alarm Clock</h1>
+    <div class="alarm-container">
+      <div class="time-container">
+        <label for="time">Set Time:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="date-container">
+        <label for="date">Set Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="ampm-container">
+        <label for="ampm">AM/PM:</label>
+        <select id="ampm" name="ampm">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+      </div>
+      <div class="ringtone-container">
+        <label for="ringtone">Ringtone:</label>
+        <select id="ringtone" name="ringtone">
+          <option value="default">Default</option>
+          <option value="beep">Beep</option>
+          <option value="chime">Chime</option>
+          <option value="siren">Siren</option>
+        </select>
+       </div>
+        <button id="set-alarm">Set Alarm</button>
+      </div>
+  </div> 
+  
+ 
+  <script src="C:\Users\XPRISTO\Desktop\timer\timer.js"></script>
+</body>
+</html>
